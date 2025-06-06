@@ -1,7 +1,5 @@
-// Задаём тип данных
 let x = Array;
 
-// Проверяем к какому типу данных относится x
 if (typeof(x) === "boolean") {
     console.log(`Переменная x = ${typeof(x)}`)
 } else if (typeof(x) === "number") {
